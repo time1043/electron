@@ -108,7 +108,6 @@ const template = [
       {
         label: 'Learn More',
         click: async () => {
-          const { shell } = require('electron')
           await shell.openExternal('https://electronjs.org')
         }
       }
@@ -150,7 +149,6 @@ const template = [
       {
         label: 'Learn More',
         click: async () => {
-          const { shell } = require('electron')
           await shell.openExternal('https://electronjs.org')
         }
       }
